@@ -34,7 +34,7 @@ const Bookshelf = () => {
           onClick={handleClearLocalStorage}
         >
           <FontAwesomeIcon icon={faTrashAlt} className="mr-2" />
-          Clear Local Storage
+          Clear BookSelf
         </button>
       </div>
       </div>
