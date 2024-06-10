@@ -14,7 +14,6 @@ const Bookshelf = () => {
   
   const handleClearLocalStorage = () => {
     localStorage.removeItem('bookshelf');
-    alert('Local storage cleared successfully!');
     setRefresh(!refresh); 
   };
 
